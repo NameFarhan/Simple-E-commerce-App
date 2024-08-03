@@ -6,7 +6,7 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   const handleBuyNowClick = () => {
-    navigate('/allpro');
+    navigate("/allpro");
   };
 
   return (
@@ -46,7 +46,7 @@ const HomePage = () => {
           </Typography>
           <Typography
             sx={{ fontSize: "18px", fontWeight: "500", color: "#333333" }}
-          > 
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis.
           </Typography>
@@ -56,10 +56,10 @@ const HomePage = () => {
               width: "222px",
               backgroundColor: "#B88E2F",
               height: "74px",
-              color: "#fff",  
+              color: "#fff",
               fontSize: "16px",
               fontWeight: "800",
-              marginTop: "10px",
+              marginTop: "20px",
               "&:hover": { backgroundColor: "#B88E2F" },
             }}
             variant="contained"
@@ -71,6 +71,6 @@ const HomePage = () => {
       </Box>
     </>
   );
-}
+};
 
 export default HomePage;
