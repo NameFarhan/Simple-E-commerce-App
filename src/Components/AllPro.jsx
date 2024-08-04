@@ -138,6 +138,9 @@ const AllPro = () => {
                     sx={{
                       margin: "20px auto",
                       transition: "all .3s ease",
+                      color:'#E7E390',
+                      backgroundColor: "rgb(0, 0, 0, 0.4)",
+                      borderRadius:'0', 
                       display: "block",
                       "&:hover": {
                         backgroundColor: "rgb(0, 0, 0, 0.4)",
